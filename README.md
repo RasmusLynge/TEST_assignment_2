@@ -13,22 +13,33 @@ The worst software defect I have ever heard about is the one of the Boeing 737 M
   
 During testing the airplane had some issues with the nose pointing too much upwards. Boing wanted the new plane to behave as the previous models so that the pilots wouldn’t need extra training to fly the new plane. They fixed this “nose problem” with a software that automatically pushed the nose down if the nose was at too high of an angle (MCAS-software).
 The MCAS basically ignored the pilots input and pushed the nose downwards if its censors detected that the nose was at too high of an angle.   
+  
 Since its launch several pilots complained that the nose of the plane was suddenly tipping down for no reason. They had gotten no training in the new MCAS-software and was not aware that it was installed. Two planes ended up crashing due to uncontrollable nosedives created by the MCAS.  
 
 The FAA and EASA(Federal Aviation Administration and European Union Aviation Safety Agency) that tests and approves the airplanes has admitted to being incompetent when regulating software, and, as a policy, it allows plane manufacturers to police themselves for safety. (Said in 2019)
 
 There are multiple places where this went wrong. Rushed certifications, promising minimal training for the pilots and much more. 
 From a testing perspective the MCAS should have been tested better to make sure it would have turned off before making the plane go into a free fall. 
--	There were multiple censors of the airplane that knew the airplane was diving, but none of them were sending data to the MCAS.
+-	There were multiple censors of the airplane that knew the airplane was diving, but not all of them were sending data to the MCAS.
 -	The MCAS should have been automatically shut off if its censor data did not match with the rest of the plane.  
 -   The FAA/EASA should also have some type of standard/testing of the software in planes. 
 
-Boing has later made an update for the airplane that makes the MCAS “less aggressive” and EASA plans to lift the flight ban from the plane from November this year.
+Boing has later made an update for the airplane that makes the MCAS “less aggressive”:
+- Flight control system will now compare inputs from both (AOA) sensors. If the sensors disagree by 5.5 degrees or more with the flaps retracted, MCAS will not activate. An indicator on the flight deck display will alert the pilots.  
+- If MCAS is activated in non-normal conditions, it will only provide one input for each elevated AOA event. There are no known or envisioned failure conditions where MCAS will provide multiple inputs.  
+- MCAS can never command more stabilizer input than can be counteracted by the flight crew pulling back on the column. The pilots will continue to always have the ability to override MCAS and manually control the airplane.  
   
+These are all edge cases that should have been thought during QA. 
+
+FAA and EASA plans to lift the flight ban from the plane from November this year.
   
-More in depth:    
+More in depth here:    
+Full article:  
 https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa  
+Short video:  
 https://www.youtube.com/watch?v=H2tuKiiznsY  
+Could software-QA have prevented the crashes:  
+https://www.itworldcanada.com/article/could-software-quality-assurance-processes-have-prevented-the-boeing-737-max-crash/417713  
 
 
 ## Two Katas  
