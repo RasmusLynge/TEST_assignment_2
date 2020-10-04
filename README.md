@@ -68,17 +68,17 @@ Tags are used to organize and group tests. eg. @Tag("integration") or @Tag("unit
 • **@Disabled**  
 This is used to disable tests. If eg. requirements change temporarily?  
 • **@RepeatedTest**  
-Repeats a test. same way as parametherizedTest but with the same data. 
+Repeats a test. same way as parametherizedTest but with the same data.  
 • **@BeforeEach, @AfterEach**  
-Does something before/after each test. eg. setting up an object to use for the tests.   
+Does something before/after each test. eg. setting up an object to use for the tests.  
 • **@BeforeAll, @AfterAll**  
 Does something before/after all tests. eg. setting up an enviroment, connecting to a server og db?  
 • **@DisplayName**  
 Changes the display name to get a better overview when running all tests.  
 • **@Nested**  
-Another great way to organize tests. With nested you can group your tests together.  
+Another great way to organize tests. With nested you can group your tests together.   
 • **assumeFalse, assumeTrue**  
-Assumptions can be used to only continue the test under certain conditions. eg. only run a test on a certain operation system.
+Assumptions can be used to only continue the test under certain conditions. eg. only run a test on a certain operation system.  
 
 ## Mocking frameworks  
 *Investigate mocking frameworks for your preferred language. Choose at least
