@@ -60,29 +60,30 @@ Complete the Bowling Game Kata using TDD. The slides can be found here:
 http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt  
 
 
-## Investigation of tools  
-*JUnit 5  
-Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.*  
+### Investigation of tools  
+##JUnit 5  
+*Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.*  
 • **@Tag**  
-Tags are used to organize and group tests. Fx. @Tag("integration") or @Tag("unit")  
+Tags are used to organize and group tests. eg. @Tag("integration") or @Tag("unit")  
 • **@Disabled**  
-This is used to disable tests. If fx. requirements change temporarily?  
+This is used to disable tests. If eg. requirements change temporarily?  
 • **@RepeatedTest**  
-Repeats a test. same way as parametherizedTest but with the same data.  
+Repeats a test. same way as parametherizedTest but with the same data. 
 • **@BeforeEach, @AfterEach**  
-Does something before/after each test.  
+Does something before/after each test. eg. setting up an object to use for the tests.   
 • **@BeforeAll, @AfterAll**  
-Does something before/after all tests  
+Does something before/after all tests. eg. setting up an enviroment, connecting to a server og db?  
 • **@DisplayName**  
-Changes the displa name
+Changes the display name to get a better overview when running all tests.  
 • **@Nested**  
 Another great way to organize tests. With nested you can group your tests together.  
 • **assumeFalse, assumeTrue**  
+Assumptions can be used to only continue the test under certain conditions. eg. only run a test on a certain operation system.
 
 ## Mocking frameworks  
-Investigate mocking frameworks for your preferred language. Choose at least
+*Investigate mocking frameworks for your preferred language. Choose at least
 two frameworks, and answer the questions. (One could be Mockito, which
-we saw in class.)  
+we saw in class.)*  
 • What are their similarities?  
 • What are their differences?  
 • Which one would you prefer, if any, and why?  
