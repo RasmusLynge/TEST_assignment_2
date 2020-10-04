@@ -64,14 +64,22 @@ http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt
 JUnit 5  
 Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.  
 • @Tag  
+Tags are used to organize and group tests. Fx. @Tag("integration") or @Tag("unit")  
 • @Disabled  
+This is used to disable tests. If fx. requirements change temporarily?  
 • @RepeatedTest  
+Repeats a test. same way as parametherizedTest but with the same data.  
 • @BeforeEach, @AfterEach  
+Does something before/after each test.  
 • @BeforeAll, @AfterAll  
+Does something before/after all tests  
 • @DisplayName  
+Changes the displa name
 • @Nested  
+Another great way to organize tests. With nested you can group your tests together.  
 • assumeFalse, assumeTrue  
-Mocking frameworks  
+
+## Mocking frameworks  
 Investigate mocking frameworks for your preferred language. Choose at least
 two frameworks, and answer the questions. (One could be Mockito, which
 we saw in class.)  
@@ -79,4 +87,3 @@ we saw in class.)
 • What are their differences?  
 • Which one would you prefer, if any, and why?  
 
-- - -# TEST_assignment_2
