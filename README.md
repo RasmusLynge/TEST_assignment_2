@@ -39,29 +39,28 @@ Boing has later made an update for the airplane that makes the MCAS “less aggr
   
 These are all edge cases that should have been thought of during QA. 
 
-More in depth here:    
-Full article:  
-https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa  
-Short video:  
-https://www.youtube.com/watch?v=H2tuKiiznsY  
-Could software-QA have prevented the crashes:  
-https://www.itworldcanada.com/article/could-software-quality-assurance-processes-have-prevented-the-boeing-737-max-crash/417713  
+More in depth here if interrested:    
+[Full verge article](https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa)  
+[Short vox video](https://www.youtube.com/watch?v=H2tuKiiznsY)  
+[Could software-QA have prevented the crashes? itworldcanada](https://www.itworldcanada.com/article/could-software-quality-assurance-processes-have-prevented-the-boeing-737-max-crash/417713)  
 
 
 ## Two Katas  
 
-#### String utility  
-
+### String utility - *Look in scr of this project to see hand in* 
 Use TDD to create a string utility with the following methods:  
 • Reverse string (aBc -> cBa)  
 • Capitalize string (aBc -> ABC)  
 • Lowercase string (aBc -> abc)  
   
+
   
-#### Bowling game kata
+### Bowling game kata
 Complete the Bowling Game Kata using TDD. The slides can be found here:  
 http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt  
-Investigation of tools  
+
+
+## Investigation of tools  
 JUnit 5  
 Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.  
 • @Tag  
