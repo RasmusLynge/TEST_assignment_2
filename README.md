@@ -84,10 +84,19 @@ Assumptions can be used to only continue the test under certain conditions. eg. 
 *Investigate mocking frameworks for your preferred language. Choose at least
 two frameworks, and answer the questions. (One could be Mockito, which
 we saw in class.)*  
+
+### I have chosen to look at jMockit and Mockito
+
 • **What are their similarities?**  
-Test  
+Both of them is accepted in the mocking/testing community at good frameworks.  
+
 • **What are their differences?**  
-Test  
+jMockit has a steeper learning curve than Mockito. 
+Static method/constructor can be mocked directly in JMockit. and not directly in Mockito  
+Mockito has a bigger community than jMockit -> Better helt online  
+  
+[google search comparison](https://trends.google.com/trends/explore?q=mockito,jmockit,easymock)  
 • **Which one would you prefer, if any, and why?**  
-Test  
+jMockit has a wider scope and might be a better mocking framework. But Mockito has a bigger community witch i find better as a beginner.  
+We have allready been taught a bit of Mockinto and it seems to be a simple and popular framework. So i would choose Mockinto as a "starter" framework     
 
