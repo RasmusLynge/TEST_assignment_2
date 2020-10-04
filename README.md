@@ -50,8 +50,7 @@ https://www.itworldcanada.com/article/could-software-quality-assurance-processes
 
 ## Two Katas  
 
-#### String utility  
-Look in scr of this project to see hand in
+#### String utility - *Look in scr of this project to see hand in* 
 Use TDD to create a string utility with the following methods:  
 • Reverse string (aBc -> cBa)  
 • Capitalize string (aBc -> ABC)  
