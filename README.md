@@ -4,6 +4,14 @@
 *Identify the types of testing you would perform on a computer mouse, to
 make sure that it is of the highest quality.*
 
+- Does the mouse have basic functionality? left/right click and scroll. 
+- Does the form factor of the mouse fit the palm of the intended users hand?
+- Is the mouse able to slide over the intended surface (table ect.)?
+- Does the laser/tracker work on the intended surfaces?
+- If wireless: does it have acceptable battery life?
+- If wireless: does it have acceptable range?
+- If wired: does it have acceptable cord length?
+- 
 
 ## Catastrophic failure
 *Find a story where a software system defect had a bad outcome. Describe
@@ -29,10 +37,8 @@ Boing has later made an update for the airplane that makes the MCAS “less aggr
 - If MCAS is activated in non-normal conditions, it will only provide one input for each elevated AOA event. There are no known or envisioned failure conditions where MCAS will provide multiple inputs.  
 - MCAS can never command more stabilizer input than can be counteracted by the flight crew pulling back on the column. The pilots will continue to always have the ability to override MCAS and manually control the airplane.  
   
-These are all edge cases that should have been thought during QA. 
+These are all edge cases that should have been thought of during QA. 
 
-FAA and EASA plans to lift the flight ban from the plane from November this year.
-  
 More in depth here:    
 Full article:  
 https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa  

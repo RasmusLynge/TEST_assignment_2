@@ -2,13 +2,6 @@ package strUtility;
 
 public class ReverseString {
 
-    public static void main(String[] args) {
-        ReverseString rv = new ReverseString();
-        String test = rv.reverse("nitraM");
-        System.out.println(test);
-    }
-
-
     public String reverse(String str) {
 
         String newStr = "";
