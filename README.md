@@ -51,13 +51,13 @@ https://www.itworldcanada.com/article/could-software-quality-assurance-processes
 ## Two Katas  
 
 #### String utility  
-
+Look in scr of this project to see hand in
 Use TDD to create a string utility with the following methods:  
 • Reverse string (aBc -> cBa)  
 • Capitalize string (aBc -> ABC)  
 • Lowercase string (aBc -> abc)  
   
-**Look in scr of this project**
+
   
 #### Bowling game kata
 Complete the Bowling Game Kata using TDD. The slides can be found here:  
