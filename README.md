@@ -40,11 +40,9 @@ Boing has later made an update for the airplane that makes the MCAS “less aggr
 These are all edge cases that should have been thought of during QA. 
 
 More in depth here if interrested:    
-(Full article) [https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa]
-Short video:  
-https://www.youtube.com/watch?v=H2tuKiiznsY  
-Could software-QA have prevented the crashes:  
-https://www.itworldcanada.com/article/could-software-quality-assurance-processes-have-prevented-the-boeing-737-max-crash/417713  
+[Full verge article](https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa)  
+[Short vox video](https://www.youtube.com/watch?v=H2tuKiiznsY)  
+[Could software-QA have prevented the crashes? itworldcanada](https://www.itworldcanada.com/article/could-software-quality-assurance-processes-have-prevented-the-boeing-737-max-crash/417713)  
 
 
 ## Two Katas  
