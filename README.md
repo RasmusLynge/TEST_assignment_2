@@ -85,9 +85,9 @@ Assumptions can be used to only continue the test under certain conditions. eg. 
 two frameworks, and answer the questions. (One could be Mockito, which
 we saw in class.)*  
 • **What are their similarities?**  
---  
+Test  
 • **What are their differences?**  
---  
+Test  
 • **Which one would you prefer, if any, and why?**  
---  
+Test  
 
