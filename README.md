@@ -95,7 +95,7 @@ jMockit has a steeper learning curve than Mockito.
 Static method/constructor can be mocked directly in JMockit. and not directly in Mockito  
 Mockito has a bigger community than jMockit -> Better helt online  
   
-[google search comparison](https://trends.google.com/trends/explore?q=mockito,jmockit,easymock)  
+[Google search comparison of frameworks](https://trends.google.com/trends/explore?q=mockito,jmockit,easymock,PowerMock)  
 • **Which one would you prefer, if any, and why?**  
 jMockit has a wider scope and might be a better mocking framework. But Mockito has a bigger community witch i find better as a beginner.  
 We have allready been taught a bit of Mockinto and it seems to be a simple and popular framework. So i would choose Mockinto as a "starter" framework     
