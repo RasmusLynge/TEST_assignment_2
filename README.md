@@ -61,23 +61,23 @@ http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt
 
 
 ## Investigation of tools  
-JUnit 5  
-Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.  
-• @Tag  
+*JUnit 5  
+Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.*  
+• **@Tag**  
 Tags are used to organize and group tests. Fx. @Tag("integration") or @Tag("unit")  
-• @Disabled  
+• **@Disabled**  
 This is used to disable tests. If fx. requirements change temporarily?  
-• @RepeatedTest  
+• **@RepeatedTest**  
 Repeats a test. same way as parametherizedTest but with the same data.  
-• @BeforeEach, @AfterEach  
+• **@BeforeEach, @AfterEach**  
 Does something before/after each test.  
-• @BeforeAll, @AfterAll  
+• **@BeforeAll, @AfterAll**  
 Does something before/after all tests  
-• @DisplayName  
+• **@DisplayName**  
 Changes the displa name
-• @Nested  
+• **@Nested**  
 Another great way to organize tests. With nested you can group your tests together.  
-• assumeFalse, assumeTrue  
+• **assumeFalse, assumeTrue**  
 
 ## Mocking frameworks  
 Investigate mocking frameworks for your preferred language. Choose at least
