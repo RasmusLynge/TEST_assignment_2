@@ -47,7 +47,7 @@ More in depth here if interrested:
 
 ## Two Katas  
 
-#### String utility - *Look in scr of this project to see hand in* 
+### String utility - *Look in scr of this project to see hand in* 
 Use TDD to create a string utility with the following methods:  
 • Reverse string (aBc -> cBa)  
 • Capitalize string (aBc -> ABC)  
@@ -55,10 +55,12 @@ Use TDD to create a string utility with the following methods:
   
 
   
-#### Bowling game kata
+### Bowling game kata
 Complete the Bowling Game Kata using TDD. The slides can be found here:  
 http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt  
-Investigation of tools  
+
+
+## Investigation of tools  
 JUnit 5  
 Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.  
 • @Tag  
