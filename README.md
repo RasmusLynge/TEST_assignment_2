@@ -84,7 +84,10 @@ Assumptions can be used to only continue the test under certain conditions. eg. 
 *Investigate mocking frameworks for your preferred language. Choose at least
 two frameworks, and answer the questions. (One could be Mockito, which
 we saw in class.)*  
-• What are their similarities?  
-• What are their differences?  
-• Which one would you prefer, if any, and why?  
+• **What are their similarities?**  
+--  
+• **What are their differences?**  
+--  
+• **Which one would you prefer, if any, and why?**  
+--  
 
