@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Reflections  
 
 ## Computer mouse
@@ -101,5 +99,3 @@ Mockito has a bigger community than jMockit -> Better helt online
 • **Which one would you prefer, if any, and why?**  
 jMockit has a wider scope and might be a better mocking framework. But Mockito has a bigger community witch i find better as a beginner.  
 We have allready been taught a bit of Mockinto and it seems to be a simple and popular framework. So i would choose Mockinto as a "starter" framework     
-
->>>>>>> 51763d77eecf197b3243c21013df15f4af6b529b
