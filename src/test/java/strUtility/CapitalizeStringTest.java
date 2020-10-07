@@ -1,8 +1,6 @@
 package strUtility;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -12,39 +10,54 @@ public class CapitalizeStringTest {
 
 
     @Test
-    public void reverseString_MustNotBeNull() {
+    @DisplayName("CapitalizeString method exists/can be found")
+    public void capitalizeString_MustNotBeNull() {
         CapitalizeString cs = new CapitalizeString();
         Assertions.assertNotNull(cs);
     }
 
     @Test
-    public void reverseString_MustResturnR_WhenInputr() {
+    public void capitalizeString_mustReturnString() {
+        //arrange
         CapitalizeString cs = new CapitalizeString();
-        // Arrange
-        String expected = "R";
+        String testString = "test";
+        //act
+        String result = cs.capitalize(testString);
+        //assert
+        assert (result.getClass() == String.class);
+    }
 
-        // Act
-        String result = cs.capitalize("r");
+    @Nested
+    class singleLetterTest {
+        @Test
+        public void capitalizeString_MustResturnR_WhenInputr() {
+            CapitalizeString cs = new CapitalizeString();
+            // Arrange
+            String expected = "R";
 
-        // Assert
-        Assertions.assertEquals(expected, result);
+            // Act
+            String result = cs.capitalize("r");
+
+            // Assert
+            Assertions.assertEquals(expected, result);
+        }
+
+        @Test
+        public void capitalizeString_MustResturnM_WhenInputm() {
+            CapitalizeString cs = new CapitalizeString();
+            // Arrange
+            String expected = "M";
+
+            // Act
+            String result = cs.capitalize("m");
+
+            // Assert
+            Assertions.assertEquals(expected, result);
+        }
     }
 
     @Test
-    public void reverseString_MustResturnM_WhenInputm() {
-        CapitalizeString cs = new CapitalizeString();
-        // Arrange
-        String expected = "M";
-
-        // Act
-        String result = cs.capitalize("m");
-
-        // Assert
-        Assertions.assertEquals(expected, result);
-    }
-
-    @Test
-    public void reverseString_MustResturnRASMUS_WhenInputrasmus() {
+    public void capitalizeString_MustResturnRASMUS_WhenInputrasmus() {
         CapitalizeString cs = new CapitalizeString();
         // Arrange
         String expected = "RASMUS";
@@ -58,7 +71,7 @@ public class CapitalizeStringTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"})
-    public void reverseString_MustReturnNumber_WhenInputNumber(String number) {
+    public void capitalizeString_MustReturnNumber_WhenInputNumber(String number) {
         CapitalizeString cs = new CapitalizeString();
         // Arrange
         String expected = number;
@@ -71,7 +84,7 @@ public class CapitalizeStringTest {
     }
 
     @Test
-    public void reverseString_MustReturnNullPointer_WhenInputNull() {
+    public void capitalizeString_MustReturnNullPointer_WhenInputNull() {
         // Arrange
         CapitalizeString cs = new CapitalizeString();
 
@@ -80,7 +93,7 @@ public class CapitalizeStringTest {
     }
 
     @Test
-    public void reverseString_MustReturnEmpty_WhenInputEmpty() {
+    public void capitalizeString_MustReturnEmpty_WhenInputEmpty() {
         CapitalizeString cs = new CapitalizeString();
         // Arrange
         String expected = "";
@@ -94,7 +107,7 @@ public class CapitalizeStringTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"!", "@", "\"", "#", "¤", "%", "&", "/", "(",")", "=", "?", "`"})
-    public void reverseString_MustReturnSymbol_WhenInputSymbol(String symbol) {
+    public void capitalizeString_MustReturnSymbol_WhenInputSymbol(String symbol) {
         CapitalizeString cs = new CapitalizeString();
         // Arrange
         String expected = symbol;

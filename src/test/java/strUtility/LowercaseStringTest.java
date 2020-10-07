@@ -8,13 +8,24 @@ import org.junit.jupiter.params.provider.ValueSource;
 public class LowercaseStringTest {
 
     @Test
-    public void reverseString_MustNotBeNull() {
+    public void lowercaseString_MustNotBeNull() {
         LowercaseString ls = new LowercaseString();
         Assertions.assertNotNull(ls);
     }
 
     @Test
-    public void reverseString_MustResturnr_WhenInputR() {
+    public void lowercaseString_mustReturnString() {
+        //arrange
+        LowercaseString ls = new LowercaseString();
+        String testString = "test";
+        //act
+        String result = ls.lowercase(testString);
+        //assert
+        assert (result.getClass() == String.class);
+    }
+
+    @Test
+    public void lowercaseString_MustResturnr_WhenInputR() {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = "r";
@@ -27,7 +38,7 @@ public class LowercaseStringTest {
     }
 
     @Test
-    public void reverseString_MustResturnr_WhenInputr() {
+    public void lowercaseString_MustResturnr_WhenInputr() {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = "r";
@@ -40,7 +51,7 @@ public class LowercaseStringTest {
     }
 
     @Test
-    public void reverseString_MustResturnm_WhenInputM() {
+    public void lowercaseString_MustResturnm_WhenInputM() {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = "m";
@@ -53,7 +64,7 @@ public class LowercaseStringTest {
     }
 
     @Test
-    public void reverseString_MustResturnrasmus_WhenInputRASMUS() {
+    public void lowercaseString_MustResturnrasmus_WhenInputRASMUS() {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = "rasmus";
@@ -67,7 +78,7 @@ public class LowercaseStringTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"})
-    public void reverseString_MustReturnNumber_WhenInputNumber(String number) {
+    public void lowercaseString_MustReturnNumber_WhenInputNumber(String number) {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = number;
@@ -80,7 +91,7 @@ public class LowercaseStringTest {
     }
 
     @Test
-    public void reverseString_MustReturnNullPointer_WhenInputNull() {
+    public void lowercaseString_MustReturnNullPointer_WhenInputNull() {
         // Arrange
         LowercaseString ls = new LowercaseString();
 
@@ -89,7 +100,7 @@ public class LowercaseStringTest {
     }
 
     @Test
-    public void reverseString_MustReturnEmpty_WhenInputEmpty() {
+    public void lowercaseString_MustReturnEmpty_WhenInputEmpty() {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = "";
@@ -103,7 +114,7 @@ public class LowercaseStringTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"!", "@", "\"", "#", "¤", "%", "&", "/", "(",")", "=", "?", "`"})
-    public void reverseString_MustReturnSymbol_WhenInputSymbol(String symbol) {
+    public void lowercaseString_MustReturnSymbol_WhenInputSymbol(String symbol) {
         LowercaseString ls = new LowercaseString();
         // Arrange
         String expected = symbol;

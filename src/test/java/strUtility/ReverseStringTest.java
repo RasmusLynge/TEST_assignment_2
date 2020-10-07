@@ -12,6 +12,17 @@ public class ReverseStringTest {
     }
 
     @Test
+    public void reverseString_mustReturnString() {
+        //arrange
+        ReverseString rs = new ReverseString();
+        String testString = "test";
+        //act
+        String result = rs.reverse(testString);
+        //assert
+        assert (result.getClass() == String.class);
+    }
+
+    @Test
     public void reverseString_MustReturnR_WhenInputR() {
         // Arrange
         ReverseString rs = new ReverseString();
